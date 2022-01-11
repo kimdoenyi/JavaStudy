@@ -1,3 +1,5 @@
+package com.study.example;
+
 @FunctionalInterface // 인터페이스를 더 견고하게 관리하기 위해 , 함수형 인터페이스를 정의한 경우
 public interface RunSomething {
     // 추상메서드가 딱 하나만 있으면 함수형 인터페이스

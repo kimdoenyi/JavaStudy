@@ -1,14 +1,16 @@
+package com.study.example;
+
 public class Foo {
     /*
     public static void main(String[] args) {
         // 익명 내부 클래스 anonymous inner class
         // 함수형 인터페이스를 구현할때 쓸 수 있는 구문식을 람다식이라고 함. 코드를 줄일 수 있음
-        RunSomething runSomething = () -> {
+        java.study.example.RunSomething runSomething = () -> {
             // 실행해야 할 내용이 한줄이 아닌 경우 {} 로 묶어서 사용 가능
             // 특수한 형태의 오브젝트이다 람다는
             // 함수가 함수를 매개변수로 받을 수 있고 함수리턴도 가능(고차함수)
             System.out.println("Hello");
-            System.out.println("Test");
+            System.out.println("java.study.example.Test");
         };
         runSomething.doIt();
     }
@@ -21,7 +23,7 @@ public class Foo {
         // 입력받은 값이 동일한 경우 결과값이 같아야 함
 
         /*
-        RunSomething runSomething = new RunSomething() {
+        java.study.example.RunSomething runSomething = new java.study.example.RunSomething() {
             @Override
             public int doIt(int num) {
                 return num+1;
@@ -36,6 +38,7 @@ public class Foo {
             System.out.println("num = " + num);
         };
 
+        RunSomething.printName();
 
 
     }
